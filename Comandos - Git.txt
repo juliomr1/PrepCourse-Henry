@@ -1,0 +1,49 @@
+pwd: imprimir el directorio en donde nos encontramos. 
+
+
+ls: imprime archivos o carpetas dentro del cual estamos trabajando. 
+
+ls -a: imprime archivos ocultos
+
+
+mkdir carpetaPrueba: crea una carpeta llamada 'carpetaPrueba' en el directorio que estamos situados. Si queremos crear una carpeta que lleve espacios en su nombre se debe utilizar comillas. Por ej "PrepCourse Henry" 
+
+
+cd: para ir hacia el directorio que contiene la carpeta o directorio en donde nos encontramos. También podemos usarla para movernos entre carpetas, por ejemplo al usar cd carpetaPrueba cambiamos de la carpeta actual hacia "carpetaPrueba"
+
+cd .. :para ir atrás un directorio del que nos encontramos 
+
+
+touch archivo.txt : crea un archivo con nombre "archivo.txt"
+
+
+rm archivo.txt : elimina el archivo "archivo.txt"
+
+
+rm -r carpetaPrueba: elimina la carpeta de nombre "carpetaPrueba"
+
+help: entrega una lista de los comandos
+
+code: para abrir y editar un archivo 
+
+#############################################################
+++++++++++++++++++++++Comandos Git+++++++++++++++++++++++++++
+#############################################################
+
+Un commit no es más que una captura instantánea de los cambios preparados en ese momento del proyecto. Las instantáneas confirmadas pueden considerarse como versiones "seguras" de un proyecto.
+
+git init: comando para inicializar un repositorio local. 
+
+git add : para agregar un archivo al commit 
+
+git add . :para agregar todos los archivos al commit 
+
+git commit -m "algún mensaje de commit" : Para guardar los archivos a la carpeta git 
+
+git log : listara todo los commit existentes de nuestro repositorio 
+
+git push: comando para mandar nuestros commits a un servidor remoto.
+
+git pull: sirve para recibir cambios de repositorio remoto a local.
+
+Recuerda que Git nunca cambiará las versiones seguras de tu proyecto, a no ser que se lo pidas expresamente. De esta forma, estamos guardando el estado actual de nuestro proyecto, para volver a visitarlo de ser necesario y por supuesto para mantenerlo a lo largo del tiempo.
