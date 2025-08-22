@@ -1,0 +1,87 @@
+Aquí tienes una lista de atajos de teclado útiles en Visual Studio Code (VS Code). Te los organizo por categorías para que sea más fácil encontrarlos:
+
+🔹 Navegación
+
+Abrir la paleta de comandos: Ctrl + Shift + P
+
+Abrir archivo rápido: Ctrl + P
+
+Ir a una línea específica: Ctrl + G
+
+Ir a definición: F12
+
+Buscar referencias: Shift + F12
+
+Siguiente/Anterior pestaña: Ctrl + Tab / Ctrl + Shift + Tab
+
+Cerrar pestaña actual: Ctrl + W
+
+🔹 Edición de código
+
+Seleccionar línea completa: Ctrl + L
+
+Duplicar línea: Shift + Alt + ↓ / ↑
+
+Mover línea: Alt + ↓ / ↑
+
+Eliminar línea: Ctrl + Shift + K
+
+Comentar/Descomentar línea: Ctrl + /
+
+Bloque de comentario: Shift + Alt + A
+
+Renombrar símbolo: F2
+
+🔹 Búsqueda
+
+Buscar en el archivo actual: Ctrl + F
+
+Reemplazar en el archivo actual: Ctrl + H
+
+Buscar en todo el proyecto: Ctrl + Shift + F
+
+Reemplazar en todo el proyecto: Ctrl + Shift + H
+
+🔹 Multicursor
+
+Agregar cursor en otra línea: Ctrl + Alt + ↓ / ↑
+
+Seleccionar todas las ocurrencias: Ctrl + Shift + L
+
+Seleccionar siguiente coincidencia: Ctrl + D
+
+🔹 Terminal y depuración
+
+Abrir terminal integrada: Ctrl + `
+
+Nueva terminal: Ctrl + Shift +
+
+Iniciar depuración: F5
+
+Detener depuración: Shift + F5
+
+Paso a paso (siguiente línea): F10
+
+Entrar en función: F11
+
+Salir de función: Shift + F11
+
+🔹 Gestión de ventana/editor
+
+Dividir editor: Ctrl + \
+
+Cambiar entre editores: Ctrl + 1, Ctrl + 2, …
+
+Maximizar/Restaurar editor: Ctrl + Alt + Enter
+
+Abrir configuración: Ctrl + ,
+
+Abrir explorador: Ctrl + Shift + E
+
+Abrir búsqueda: Ctrl + Shift + F
+
+Abrir control de código fuente (Git): Ctrl + Shift + G
+
+Abrir depuración: Ctrl + Shift + D
+
+Abrir extensiones: Ctrl + Shift + X
