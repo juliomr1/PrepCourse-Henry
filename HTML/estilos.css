@@ -1,0 +1,22 @@
+.fondo {
+    background-color: green;
+}
+
+.mitexto {
+    font-size: 20px;
+    color: blue;
+}
+
+.mitexto1 {
+    font-size: 20px;
+    color: rgb(255, 102, 0);
+}
+
+.mitexto2 {
+    font-size: 20px;
+    color: rgb(247, 0, 255);
+}
+
+.logo{
+    width: 70px;
+}
