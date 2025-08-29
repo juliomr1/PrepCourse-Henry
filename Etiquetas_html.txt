@@ -1,0 +1,85 @@
+Estructura básica
+
+<html> → Encierra todo el documento.
+
+<head> → Contiene metadatos, enlaces a estilos y scripts.
+
+<body> → Contiene todo el contenido visible de la página.
+________________________________________________________________
+Texto y contenido
+
+<h1> a <h6> → Títulos y subtítulos (jerarquía de encabezados).
+
+<p> → Párrafos de texto.
+
+<span> → Texto en línea, usado para aplicar estilos puntuales.
+
+<br> → Salto de línea.
+
+<hr> → Línea horizontal (separador).
+________________________________________________________________
+Formato y semántica
+
+<strong> → Texto importante (negrita semántica).
+
+<em> → Texto enfatizado (cursiva semántica).
+
+<b> → Texto en negrita (solo estilo).
+
+<i> → Texto en cursiva (solo estilo).
+
+<mark> → Texto resaltado.
+_________________________________________________________________
+Enlaces e imágenes
+
+<a> → Hipervínculos.
+
+<img> → Imágenes.
+_________________________________________________________________
+Listas
+
+<ul> → Lista desordenada.
+
+<ol> → Lista ordenada.
+
+<li> → Elemento de lista.
+_________________________________________________________________
+Multimedia
+
+<video> → Video.
+
+<audio> → Audio.
+
+<iframe> → Contenido embebido (ej. YouTube, mapas).
+________________________________________________________________
+Formularios
+
+<form> → Formulario.
+
+<input> → Campo de entrada.
+
+<label> → Etiqueta para un campo.
+
+<textarea> → Área de texto.
+
+<button> → Botón.
+
+<select> y <option> → Menú desplegable.
+_______________________________________________________________
+Estructura y maquetación
+
+<div> → División o contenedor de bloques.
+
+<header> → Encabezado de página o sección.
+
+<nav> → Menú de navegación.
+
+<main> → Contenido principal.
+
+<section> → Sección temática.
+
+<article> → Artículo o bloque independiente.
+
+<aside> → Contenido lateral.
+
+<footer> → Pie de página.

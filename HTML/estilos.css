@@ -1,22 +1,32 @@
 .fondo {
-    background-color: green;
+    background-color: rgb(255, 255, 255);
 }
-
-.mitexto {
-    font-size: 20px;
-    color: blue;
+.title{
+    font-size: 3em;
+    color: black;
 }
-
-.mitexto1 {
-    font-size: 20px;
-    color: rgb(255, 102, 0);
-}
-
-.mitexto2 {
-    font-size: 20px;
-    color: rgb(247, 0, 255);
-}
-
 .logo{
     width: 70px;
+}
+
+#hea_title{
+    border: 2px solid black;
+    width: 40vw;
+    margin: auto;
+    padding-left: 10em;
+    transition: 0.5s;
+    /* border-radius: 10%; */
+    /*border-bottom: 90%;*/
+}
+
+#hea_title:hover{
+    background-color: rgba(76, 201, 201, 0.384);
+}
+
+.login{
+    border: 2px dashed black;
+    width: 25vw;
+    margin: auto;
+    margin-top: 5em;
+    padding-left: 4em;
 }
