@@ -23,10 +23,63 @@
     background-color: rgba(76, 201, 201, 0.384);
 }
 
-.login{
-    border: 2px dashed black;
-    width: 25vw;
+.container_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    background-color: rgb(78, 76, 76);
+    color: white;
+    width: 30vw;
+    margin: auto;
+}
+.container_login{
+    background-color: rgb(186, 206, 206);
+    border: 2px solid rgb(135, 135, 158);
+    width: 20vw;
     margin: auto;
     margin-top: 5em;
-    padding-left: 4em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    display: flex;              /* Activa Flexbox en este contenedor */
+    justify-content: center;    /* Mueve el contenido al centro en el eje horizontal (izq ↔ der) */
+    align-items: center; 
+    border-radius: 5%;
+}
+
+.container_creat{
+    background-color: rgb(186, 206, 206);
+    border: 2px solid rgb(135, 135, 158);
+    width: 20vw;
+    margin: auto;
+    margin-top: 5em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    display: flex;              /* Activa Flexbox en este contenedor */
+    justify-content: center;    /* Mueve el contenido al centro en el eje horizontal (izq ↔ der) */
+    align-items: center; 
+    border-radius: 5%;
+}
+
+.button{
+    background-color: rgb(74, 74, 109);
+    color: white; 
+    text-decoration: none;/* Quita el subrayado */
+    border-radius: 10%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer; /* Cambia el cursor a "manito" */
+    transition: 0.3s;          /* Animación suave al pasar el mouse */
+}
+
+.button:hover{
+    background-color: rgb(122, 109, 109);
+    color: rgb(0, 0, 0);
+    border-color: white;
+}
+
+.register{
+    margin-top: 5px;
+    margin-left: 120px;
 }

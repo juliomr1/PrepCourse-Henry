@@ -4,38 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREAT ACCOINT</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
     <header>
 
     </header>
     <main>
-        <form action="crat accoint">
-            <div>
-                <h2>Creat accoint</h2>
+        <div class="container_creat">
+            <form action="creat accoint">
                 <div>
-                    <label for="nombre">Name:</label>
-                    <input type="text" name="name">
+                    <h2 class="container_title">Creat accoint</h2>
+                    <br>
+                    <div>
+                        <label for="nombre">Name:</label>
+                        <br>
+                        <input type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="apellido">Last name:</label>
+                        <br>
+                        <input type="text" name="Last name">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email">
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <br>
+                        <input type="password" name="password">
+                    </div>
+                    <div>
+                        <label for="password1">Confirm password:</label>
+                        <br>
+                        <input type="password" name="password1">
+                    </div>
+                    <div class="container_title">
+                        <a href="loginh.html" class="button">Sumit</a></button>
+                    </div>
                 </div>
-                <div>
-                    <label for="apellido">Last name:</label>
-                    <input type="text" name="Last name">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email">
-                </div>
-                <div>
-                    <label for="password">Password</label>
-                    <input type="password" name="password">
-                </div>
-                <div>
-                    <label for="password1">Confirm password</label>
-                    <input type="password" name="password1">
-                </div>
-                <button><a href="loginh.html">Sumit</a></button>
-            </div>
-        </form>
+            </form>
+        </div>
     </main>
 </body>
 </html>
